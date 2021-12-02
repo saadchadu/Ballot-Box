@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ballot</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <div class="conatiner">
+        <div class="ballot">
+            <table>
+                <tr>
+                    <th>No</th>
+                    <th>Name</th>
+                    <th>Party</th>
+                    <th>Icon</th>
+                    <th>Switch</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Nominee</td>
+                    <td>CPP</td>
+                    <td><img src="images/folder.png" alt=""></td>
+                    <td><button onclick="play()" class="glow-button">Vote</button></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Nominee</td>
+                    <td>UPP</td>
+                    <td><img src="images/net.png" alt=""></td>
+                    <td><button onclick="play()" class="glow-button">Vote</button></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Nominee</td>
+                    <td>BPP</td>
+                    <td><img src="images/trash.png" alt=""></td>
+                    <td><button onclick="play()" class="glow-button">Vote</button></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Nominee</td>
+                    <td>SPP</td>
+                    <td><img src="images/umbrella.png" alt="" style="width: 25px; height: 25px;"></td>
+                    <td><button onclick="play()" class="glow-button">Vote</button></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Nominee</td>
+                    <td>IPP</td>
+                    <td><img src="images/fix.png" alt=""></td>
+                    <td
+                    ><button onclick="play()" class="glow-button">Vote</button></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td colspan="2">NOTA</td>
+                    <td><img src="images/nota.png" alt="" style="width: 40px; height: 40px;"></td>
+                    <td ><button onclick="play()" class="glow-button">Vote</button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script>
+        function play() {
+        var audio = document.getElementById("audio");
+        audio.play();
+        alert("Your Vote accepted")
+        }
+
+
+
+    </script>
+
+
+
+     <audio id="audio" src="beep.mp3"></audio>
+</body>
+</html>

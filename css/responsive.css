@@ -1,0 +1,26 @@
+@media screen and (max-width: 700px) {
+  .ballot {
+    width: 70vw;
+    height: 70vh;
+  }
+  table {
+    font-size: 12px;
+    top: 5vh;
+    left: 3.5vw;
+  }
+  table tr td img {
+    height: 15px;
+    width: 15px;
+  }
+  button {
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 15;
+  }
+  label {
+    text-align: center;
+    font-size: 15px;
+    top: 40px;
+  }
+}
